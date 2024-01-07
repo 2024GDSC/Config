@@ -1,6 +1,2 @@
 server:
-  port: 0
-
-spring:
-  application:
-    name: first-service
+  port: 9000
