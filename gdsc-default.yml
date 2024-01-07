@@ -1,0 +1,15 @@
+server:
+  port: 9000
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: gdsc
+      profile: service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, refresh
